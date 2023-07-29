@@ -29,6 +29,7 @@ export default function App() {
         onChange={handleChange}
         type="text" 
         placeholder="What's your name?" 
+        value={name}
       />
       <button 
         style={ {backgroundColor: isMouseOver ? "black" : "white"} } 
