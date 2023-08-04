@@ -37,6 +37,7 @@ export default function App() {
           value={name}
         />
         <button 
+          type="submit"
           style={ {backgroundColor: isMouseOver ? "black" : "white"} } 
           // onClick={handleClick}
           onMouseOver={handleMouseOver}
